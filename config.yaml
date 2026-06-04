@@ -38,6 +38,12 @@
       format: yaml
       behavior: classical
 
+    G:
+      type: http
+      url: "https://raw.githubusercontent.com/xndeye/adblock_list/refs/heads/release/clash.yaml"
+      format: yaml
+      behavior: classical
+
 - path: output/AdBlock@ipcidr.mrs
   format: mrs
   behavior: ipcidr
@@ -75,5 +81,11 @@
     F:
       type: http
       url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash-Classical.yaml"
+      format: yaml
+      behavior: classical
+
+    G:
+      type: http
+      url: "https://raw.githubusercontent.com/xndeye/adblock_list/refs/heads/release/clash.yaml"
       format: yaml
       behavior: classical
