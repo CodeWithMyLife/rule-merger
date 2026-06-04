@@ -1,6 +1,46 @@
-- path: output/AdBlock.mrs
+- path: output/AdBlock@domain.mrs
   format: mrs
-  behavior: classical
+  behavior: domain
+  upstream:
+    A:
+      type: http
+      url: "https://raw.githubusercontent.com/CodeWithMyLife/config/refs/heads/master/OPPO.yaml"
+      format: yaml
+      behavior: classical
+
+    B:
+      type: http
+      url: "https://github.com/CodeWithMyLife/AdBlock_Rule_For_Clash/raw/refs/heads/main/adblock_reject.yaml"
+      format: yaml
+      behavior: classical
+
+    C:
+      type: http
+      url: "https://github.com/REIJI007/AdBlock_Rule_For_Clash/raw/refs/heads/main/adblock_reject.yaml"
+      format: yaml
+      behavior: classical
+
+    D:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising.yaml"
+      format: yaml
+      behavior: classical
+
+    E:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Privacy/Privacy_Classical.yaml"
+      format: yaml
+      behavior: classical
+
+    F:
+      type: http
+      url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash-Classical.yaml"
+      format: yaml
+      behavior: classical
+
+- path: output/AdBlock@ipcidr.mrs
+  format: mrs
+  behavior: ipcidr
   upstream:
     A:
       type: http
