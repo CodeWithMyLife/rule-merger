@@ -1,5 +1,5 @@
-- path: output/AdBlock.yaml
-  format: yaml
+- path: output/AdBlock.mrs
+  format: mrs
   behavior: classical
   upstream:
     A:
@@ -29,5 +29,11 @@
     E:
       type: http
       url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Privacy/Privacy_Classical.yaml"
+      format: yaml
+      behavior: classical
+
+    F:
+      type: http
+      url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash-Classical.yaml"
       format: yaml
       behavior: classical
