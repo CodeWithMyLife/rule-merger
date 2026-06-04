@@ -44,6 +44,12 @@
       format: yaml
       behavior: classical
 
+    H:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BlockHttpDNS/BlockHttpDNS.yaml"
+      format: yaml
+      behavior: classical
+
 - path: output/AdBlock@ipcidr.mrs
   format: mrs
   behavior: ipcidr
@@ -87,5 +93,11 @@
     G:
       type: http
       url: "https://raw.githubusercontent.com/xndeye/adblock_list/refs/heads/release/clash.yaml"
+      format: yaml
+      behavior: classical
+
+    H:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BlockHttpDNS/BlockHttpDNS.yaml"
       format: yaml
       behavior: classical
