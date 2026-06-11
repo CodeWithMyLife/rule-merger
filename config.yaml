@@ -15,12 +15,12 @@
     A:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
-      format: text
+      format: yaml
       behavior: domain
     B:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
-      format: text
+      format: yaml
       behavior: domain
 
 - path: output/Direct@domain.mrs
@@ -30,12 +30,12 @@
     A:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
-      format: text
+      format: yaml
       behavior: domain
     B:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
-      format: text
+      format: yaml
       behavior: domain
 
 - path: output/Proxy@domain.mrs
@@ -45,22 +45,22 @@
     A:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
-      format: text
+      format: yaml
       behavior: domain
     B:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
-      format: text
+      format: yaml
       behavior: domain
     C:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
-      format: text
+      format: yaml
       behavior: domain
     D:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
-      format: text
+      format: yaml
       behavior: domain
 
 - path: output/Direct@ipcidr.mrs
@@ -70,12 +70,12 @@
     A:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
-      format: text
+      format: yaml
       behavior: ipcidr
     B:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
-      format: text
+      format: yaml
       behavior: ipcidr
 
 - path: output/Telegram@ipcidr.mrs
@@ -85,5 +85,5 @@
     A:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
-      format: text
+      format: yaml
       behavior: ipcidr
