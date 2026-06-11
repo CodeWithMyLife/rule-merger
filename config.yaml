@@ -119,12 +119,12 @@
     A:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
-      format: txt
+      format: text
       behavior: classical
     B:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
-      format: txt
+      format: text
       behavior: classical
 
 - path: output/Direct@domain.mrs
@@ -134,12 +134,12 @@
     A:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
-      format: txt
+      format: text
       behavior: classical
     B:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
-      format: txt
+      format: text
       behavior: classical
 
 - path: output/Proxy@domain.mrs
@@ -149,22 +149,22 @@
     A:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
-      format: txt
+      format: text
       behavior: classical
     B:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
-      format: txt
+      format: text
       behavior: classical
     C:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
-      format: txt
+      format: text
       behavior: classical
     D:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
-      format: txt
+      format: text
       behavior: classical
 
 - path: output/Direct@ipcidr.mrs
@@ -174,12 +174,12 @@
     A:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
-      format: txt
+      format: text
       behavior: classical
     B:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
-      format: txt
+      format: text
       behavior: classical
 
 - path: output/Telegram@ipcidr.mrs
@@ -189,5 +189,5 @@
     A:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
-      format: txt
+      format: text
       behavior: classical
