@@ -110,7 +110,7 @@
       type: http
       url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Mail/Mail.yaml"
       format: yaml
-      behavior: classical
+      behavior: domain
 
 - path: output/Apple@domain.mrs
   format: mrs
@@ -120,12 +120,12 @@
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
       format: text
-      behavior: classical
+      behavior: domain
     B:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
       format: text
-      behavior: classical
+      behavior: domain
 
 - path: output/Direct@domain.mrs
   format: mrs
@@ -135,12 +135,12 @@
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
       format: text
-      behavior: classical
+      behavior: domain
     B:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
       format: text
-      behavior: classical
+      behavior: domain
 
 - path: output/Proxy@domain.mrs
   format: mrs
@@ -150,22 +150,22 @@
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
       format: text
-      behavior: classical
+      behavior: domain
     B:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
       format: text
-      behavior: classical
+      behavior: domain
     C:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
       format: text
-      behavior: classical
+      behavior: domain
     D:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
       format: text
-      behavior: classical
+      behavior: domain
 
 - path: output/Direct@ipcidr.mrs
   format: mrs
@@ -175,12 +175,12 @@
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
       format: text
-      behavior: classical
+      behavior: ipcidr
     B:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
       format: text
-      behavior: classical
+      behavior: ipcidr
 
 - path: output/Telegram@ipcidr.mrs
   format: mrs
@@ -190,4 +190,4 @@
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
       format: text
-      behavior: classical
+      behavior: ipcidr
