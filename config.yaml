@@ -110,7 +110,7 @@
       type: http
       url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Mail/Mail.yaml"
       format: yaml
-      behavior: domain
+      behavior: classical
 
 - path: output/Apple@domain.mrs
   format: mrs
